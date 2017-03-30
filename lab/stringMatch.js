@@ -1,0 +1,14 @@
+var number = 1011000;
+console.log(number);
+number = number.toString();
+console.log(number);
+occurrencedigit = 0;
+pattern = "/"+ occurrencedigit + "/g";
+occurrence = (number.match(/0/g) || []).length;
+patternOcurrence = (number.match(pattern) || []).length;
+console.log(occurrence);
+console.log(pattern);
+console.log(patternOcurrence);
+var re = new RegExp(occurrencedigit,'g');
+patternOcurrence = (number.match(re) || []).length;
+console.log(patternOcurrence);
