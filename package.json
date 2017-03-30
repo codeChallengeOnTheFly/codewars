@@ -1,0 +1,12 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/saulocamposi/codewars.git",
+  "author": "Saulo Camposi <saulocamposi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
